@@ -14,8 +14,9 @@
 
     body {
       font-family: Arial, sans-serif;
-      line-height: 1.6;
       background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
     }
 
     header {
@@ -50,8 +51,37 @@
     }
 
     h2 {
-      color: #333;
       margin-bottom: 1rem;
+    }
+
+    img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin: 1rem 0;
+    }
+
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: 0;
+      border-radius: 10px;
+      margin-top: 1rem;
+    }
+
+    a.button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background-color: #007BFF;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    a.button:hover {
+      background-color: #0056b3;
     }
 
     footer {
@@ -80,28 +110,50 @@
 
   <section id="welkom">
     <h2>Welkom</h2>
-    <p>Welkom op onze evenementpagina! We zijn blij je te mogen verwelkomen.</p>
+    <p>Welkom op onze evenementpagina! We zijn blij je te mogen verwelkomen op een dag vol inspiratie en plezier.</p>
+    <img src="https://via.placeholder.com/900x300?text=Welkom+Afbeelding" alt="Welkom afbeelding" />
   </section>
 
   <section id="locatie">
     <h2>Locatie</h2>
-    <p>Het evenement vindt plaats in het centrum van Amsterdam. Adres: Voorbeeldstraat 123.</p>
+    <p>Het evenement vindt plaats in het centrum van Amsterdam. Adres: Voorbeeldstraat 123, 1011 AB Amsterdam.</p>
+    <img src="https://via.placeholder.com/900x300?text=Locatie+Afbeelding" alt="Locatie afbeelding" />
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436.393614408688!2d4.895167615795785!3d52.370215979787865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c0c1727e2d%3A0x6636e0f1ed0b92b5!2sAmsterdam!5e0!3m2!1snl!2snl!4v1617103050024!5m2!1snl!2snl" 
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
   </section>
 
   <section id="planning">
     <h2>Planning</h2>
     <p>Bekijk hier het volledige dagschema van het evenement, inclusief pauzes en workshops.</p>
+    <ul>
+      <li><strong>09:00</strong> – Inloop en registratie</li>
+      <li><strong>10:00</strong> – Welkomstwoord</li>
+      <li><strong>11:00</strong> – Eerste ronde workshops</li>
+      <li><strong>13:00</strong> – Lunchpauze</li>
+      <li><strong>14:00</strong> – Tweede ronde workshops</li>
+      <li><strong>16:00</strong> – Afsluiting en netwerkborrel</li>
+    </ul>
+    <img src="https://via.placeholder.com/900x300?text=Planning+Afbeelding" alt="Planning afbeelding" />
   </section>
 
   <section id="faq">
     <h2>FAQ</h2>
-    <p><strong>Moet ik me registreren?</strong> Ja, registratie is verplicht.<br/>
-       <strong>Is er parkeergelegenheid?</strong> Ja, maar beperkt beschikbaar.</p>
+    <p><strong>Moet ik me registreren?</strong> Ja, registratie is verplicht voor toegang.<br/>
+       <strong>Is er parkeergelegenheid?</strong> Ja, maar het is beperkt. Kom indien mogelijk met OV.<br/>
+       <strong>Is het evenement gratis?</strong> Ja, deelname is kosteloos dankzij onze sponsors.</p>
+    <img src="https://via.placeholder.com/900x300?text=FAQ+Afbeelding" alt="FAQ afbeelding" />
   </section>
 
   <section id="contact">
     <h2>Contact</h2>
     <p>Heb je vragen? Neem contact met ons op via <a href="mailto:info@evenement.nl">info@evenement.nl</a>.</p>
+    <p>Gebruik ook ons aanmeldformulier via onderstaande knop:</p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdEXAMPLE123456789/viewform" target="_blank" class="button">Aanmelden via Google Formulier</a>
+    <img src="https://via.placeholder.com/900x300?text=Contact+Afbeelding" alt="Contact afbeelding" />
   </section>
 
   <footer>
