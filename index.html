@@ -108,6 +108,13 @@
       margin-top: 2rem;
     }
 
+
+	#locatie .locatie-content {
+	  display: flex;
+	  flex-direction: column;
+	  gap: 1rem;
+	}
+
     /* Planning section layout */
     #planning {
       display: flex;
@@ -144,7 +151,23 @@
         height: 250px;
       }
 
-      #planning {
+      #locatie .locatie-content {
+		flex-direction: row;
+		align-items: flex-start;
+	  }
+
+	  #locatie img,
+	  #locatie iframe {
+		flex: 1;
+		max-width: 100%;
+		height: auto;
+	  }
+
+	  #locatie iframe {
+		height: 300px; /* Or another value for desktop */
+	  }
+	  
+	  #planning {
         flex-direction: column;
       }
 
