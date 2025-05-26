@@ -69,7 +69,7 @@
     }
 
     /*img {
-      width: 100%;
+      max-width: 100%;
       max-height: 300px;
       object-fit: cover;
       border-radius: 10px;
@@ -105,6 +105,26 @@
       color: #555;
       margin-top: 2rem;
     }
+	
+	@media (max-width: 768px) {
+	  header, section {
+		padding: 1rem;
+	  }
+
+	  h2 {
+		font-size: 36px;
+		text-align: center;
+	  }
+
+	  nav {
+		flex-direction: column;
+		align-items: flex-start;
+	  }
+
+	  nav a {
+		margin: 5px 0;
+	  }
+	}
   </style>
 </head>
 <body>
@@ -128,7 +148,7 @@
     <h2>Welkom</h2>
     <p><strong>Wij, Ines en Harmen, vieren op 18-10-2025 ons huwelijk. <br> 
 	We hopen dat jullie erbij willen zijn om er samen een onvergetelijke dag van te maken!</strong></p><br>
-	<img src="images/kleurrijk.jpg" width = "950px" alt="Welkom" />
+	<img src="images/kleurrijk.jpg", alt="Welkom" />
   </section>
 
 <section id="locatie">
@@ -236,7 +256,7 @@
     <p>Met de daggasten dineren we in kleine kring in de Beekdalhoeve. <br> </p>
 	
 	<p>
-	Voor de avondgasten die ook al 's middags aan het spel willen deelnemen (leuk!), vragen we jullie vragen op eigen gelegenheid jullie diner te regelen (dessert is voorzien!). 
+	Voor de avondgasten die ook al 's middags aan het spel willen deelnemen (leuk!), willen we jullie vragen op eigen gelegenheid jullie diner te regelen (dessert is voorzien!). 
 	Je kunt hiervoor reserveren in het restaurant van <a href="https://debeekdalhoeve.nl/restaurant/" target="_blank">de Beekdalhoeve</a> 
 	(het restaurant is vrij populair, dus doe dit bijtijds!), of eventueel in een nabijgelegen restaurant, zoals <a href="http://www.laportaheelsum.nl/" target="_blank">La Porta Heelsum</a> 
 	of <a href="https://brasserieheelsum.nl/" target="_blank">Brasserie Heelsum</a>. 
