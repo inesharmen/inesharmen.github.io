@@ -349,8 +349,22 @@
 
   <section id="contact">
     <h2>Contact</h2>
-    <p>Heb je nog vragen? Neem contact met ons op via <a href="mailto:inesharmen@hotmail.com">inesharmen@hotmail.com</a><br>
-	+31 (0)6 497 408130 (Ines), +32 (0) 497 171527 (Ines) of +31 (0)652 285464 (Harmen).</p>
+    <p>Heb je nog vragen? Neem contact met ons op via <script>
+  const user = "harmenines";
+  const domain = "hotmail.com";
+  document.write('<a href="mailto:' + user + '@' + domain + '">email</a>');
+</script><br>
+	<script>
+    const phone = "+32 (0) 497 171527";
+    document.write('<a href="tel:' + tel + '">' + phone + '</a>');
+    </script>
+	 (Ines), of 
+	 <script>
+  const phone = "+31 (0)652 285464";
+  const tel = "+31 652 285464";
+  document.write('<a href="tel:' + tel + '">' + phone + '</a>');
+</script>
+(Harmen).</p>
     
   </section>
 
